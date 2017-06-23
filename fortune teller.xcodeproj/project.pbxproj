@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62CEA1541EFD70D4009A3E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CEA1531EFD70D4009A3E24 /* AppDelegate.swift */; };
+		62CEA1561EFD70D4009A3E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CEA1551EFD70D4009A3E24 /* ViewController.swift */; };
+		62CEA1591EFD70D4009A3E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CEA1571EFD70D4009A3E24 /* Main.storyboard */; };
+		62CEA15B1EFD70D4009A3E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CEA15A1EFD70D4009A3E24 /* Assets.xcassets */; };
+		62CEA15E1EFD70D4009A3E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CEA15C1EFD70D4009A3E24 /* LaunchScreen.storyboard */; };
+		62CEA1691EFD70D4009A3E24 /* fortune_tellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CEA1681EFD70D4009A3E24 /* fortune_tellerTests.swift */; };
+		62CEA1741EFD70D4009A3E24 /* fortune_tellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CEA1731EFD70D4009A3E24 /* fortune_tellerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62CEA1651EFD70D4009A3E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62CEA1481EFD70D3009A3E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CEA14F1EFD70D3009A3E24;
+			remoteInfo = "fortune teller";
+		};
+		62CEA1701EFD70D4009A3E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62CEA1481EFD70D3009A3E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CEA14F1EFD70D3009A3E24;
+			remoteInfo = "fortune teller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62CEA1501EFD70D3009A3E24 /* fortune teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fortune teller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CEA1531EFD70D4009A3E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62CEA1551EFD70D4009A3E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62CEA1581EFD70D4009A3E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62CEA15A1EFD70D4009A3E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62CEA15D1EFD70D4009A3E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62CEA15F1EFD70D4009A3E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CEA1641EFD70D4009A3E24 /* fortune tellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fortune tellerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CEA1681EFD70D4009A3E24 /* fortune_tellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortune_tellerTests.swift; sourceTree = "<group>"; };
+		62CEA16A1EFD70D4009A3E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CEA16F1EFD70D4009A3E24 /* fortune tellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fortune tellerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CEA1731EFD70D4009A3E24 /* fortune_tellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortune_tellerUITests.swift; sourceTree = "<group>"; };
+		62CEA1751EFD70D4009A3E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62CEA14D1EFD70D3009A3E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CEA1611EFD70D4009A3E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CEA16C1EFD70D4009A3E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CEA1471EFD70D3009A3E24 = {
+			isa = PBXGroup;
+			children = (
+				62CEA1521EFD70D4009A3E24 /* fortune teller */,
+				62CEA1671EFD70D4009A3E24 /* fortune tellerTests */,
+				62CEA1721EFD70D4009A3E24 /* fortune tellerUITests */,
+				62CEA1511EFD70D3009A3E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62CEA1511EFD70D3009A3E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62CEA1501EFD70D3009A3E24 /* fortune teller.app */,
+				62CEA1641EFD70D4009A3E24 /* fortune tellerTests.xctest */,
+				62CEA16F1EFD70D4009A3E24 /* fortune tellerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62CEA1521EFD70D4009A3E24 /* fortune teller */ = {
+			isa = PBXGroup;
+			children = (
+				62CEA1531EFD70D4009A3E24 /* AppDelegate.swift */,
+				62CEA1551EFD70D4009A3E24 /* ViewController.swift */,
+				62CEA1571EFD70D4009A3E24 /* Main.storyboard */,
+				62CEA15A1EFD70D4009A3E24 /* Assets.xcassets */,
+				62CEA15C1EFD70D4009A3E24 /* LaunchScreen.storyboard */,
+				62CEA15F1EFD70D4009A3E24 /* Info.plist */,
+			);
+			path = "fortune teller";
+			sourceTree = "<group>";
+		};
+		62CEA1671EFD70D4009A3E24 /* fortune tellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				62CEA1681EFD70D4009A3E24 /* fortune_tellerTests.swift */,
+				62CEA16A1EFD70D4009A3E24 /* Info.plist */,
+			);
+			path = "fortune tellerTests";
+			sourceTree = "<group>";
+		};
+		62CEA1721EFD70D4009A3E24 /* fortune tellerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62CEA1731EFD70D4009A3E24 /* fortune_tellerUITests.swift */,
+				62CEA1751EFD70D4009A3E24 /* Info.plist */,
+			);
+			path = "fortune tellerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62CEA14F1EFD70D3009A3E24 /* fortune teller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CEA1781EFD70D4009A3E24 /* Build configuration list for PBXNativeTarget "fortune teller" */;
+			buildPhases = (
+				62CEA14C1EFD70D3009A3E24 /* Sources */,
+				62CEA14D1EFD70D3009A3E24 /* Frameworks */,
+				62CEA14E1EFD70D3009A3E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fortune teller";
+			productName = "fortune teller";
+			productReference = 62CEA1501EFD70D3009A3E24 /* fortune teller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62CEA1631EFD70D4009A3E24 /* fortune tellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CEA17B1EFD70D4009A3E24 /* Build configuration list for PBXNativeTarget "fortune tellerTests" */;
+			buildPhases = (
+				62CEA1601EFD70D4009A3E24 /* Sources */,
+				62CEA1611EFD70D4009A3E24 /* Frameworks */,
+				62CEA1621EFD70D4009A3E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62CEA1661EFD70D4009A3E24 /* PBXTargetDependency */,
+			);
+			name = "fortune tellerTests";
+			productName = "fortune tellerTests";
+			productReference = 62CEA1641EFD70D4009A3E24 /* fortune tellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62CEA16E1EFD70D4009A3E24 /* fortune tellerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CEA17E1EFD70D4009A3E24 /* Build configuration list for PBXNativeTarget "fortune tellerUITests" */;
+			buildPhases = (
+				62CEA16B1EFD70D4009A3E24 /* Sources */,
+				62CEA16C1EFD70D4009A3E24 /* Frameworks */,
+				62CEA16D1EFD70D4009A3E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62CEA1711EFD70D4009A3E24 /* PBXTargetDependency */,
+			);
+			name = "fortune tellerUITests";
+			productName = "fortune tellerUITests";
+			productReference = 62CEA16F1EFD70D4009A3E24 /* fortune tellerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62CEA1481EFD70D3009A3E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Abidi Family";
+				TargetAttributes = {
+					62CEA14F1EFD70D3009A3E24 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					62CEA1631EFD70D4009A3E24 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62CEA14F1EFD70D3009A3E24;
+					};
+					62CEA16E1EFD70D4009A3E24 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62CEA14F1EFD70D3009A3E24;
+					};
+				};
+			};
+			buildConfigurationList = 62CEA14B1EFD70D3009A3E24 /* Build configuration list for PBXProject "fortune teller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62CEA1471EFD70D3009A3E24;
+			productRefGroup = 62CEA1511EFD70D3009A3E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62CEA14F1EFD70D3009A3E24 /* fortune teller */,
+				62CEA1631EFD70D4009A3E24 /* fortune tellerTests */,
+				62CEA16E1EFD70D4009A3E24 /* fortune tellerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62CEA14E1EFD70D3009A3E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CEA15E1EFD70D4009A3E24 /* LaunchScreen.storyboard in Resources */,
+				62CEA15B1EFD70D4009A3E24 /* Assets.xcassets in Resources */,
+				62CEA1591EFD70D4009A3E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CEA1621EFD70D4009A3E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CEA16D1EFD70D4009A3E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62CEA14C1EFD70D3009A3E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CEA1561EFD70D4009A3E24 /* ViewController.swift in Sources */,
+				62CEA1541EFD70D4009A3E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CEA1601EFD70D4009A3E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CEA1691EFD70D4009A3E24 /* fortune_tellerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CEA16B1EFD70D4009A3E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CEA1741EFD70D4009A3E24 /* fortune_tellerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62CEA1661EFD70D4009A3E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62CEA14F1EFD70D3009A3E24 /* fortune teller */;
+			targetProxy = 62CEA1651EFD70D4009A3E24 /* PBXContainerItemProxy */;
+		};
+		62CEA1711EFD70D4009A3E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62CEA14F1EFD70D3009A3E24 /* fortune teller */;
+			targetProxy = 62CEA1701EFD70D4009A3E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62CEA1571EFD70D4009A3E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CEA1581EFD70D4009A3E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62CEA15C1EFD70D4009A3E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CEA15D1EFD70D4009A3E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62CEA1761EFD70D4009A3E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62CEA1771EFD70D4009A3E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62CEA1791EFD70D4009A3E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fortune teller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.fortune-teller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62CEA17A1EFD70D4009A3E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fortune teller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.fortune-teller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		62CEA17C1EFD70D4009A3E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fortune tellerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.fortune-tellerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fortune teller.app/fortune teller";
+			};
+			name = Debug;
+		};
+		62CEA17D1EFD70D4009A3E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fortune tellerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.fortune-tellerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fortune teller.app/fortune teller";
+			};
+			name = Release;
+		};
+		62CEA17F1EFD70D4009A3E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "fortune tellerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.fortune-tellerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "fortune teller";
+			};
+			name = Debug;
+		};
+		62CEA1801EFD70D4009A3E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "fortune tellerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.fortune-tellerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "fortune teller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CEA14B1EFD70D3009A3E24 /* Build configuration list for PBXProject "fortune teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CEA1761EFD70D4009A3E24 /* Debug */,
+				62CEA1771EFD70D4009A3E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CEA1781EFD70D4009A3E24 /* Build configuration list for PBXNativeTarget "fortune teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CEA1791EFD70D4009A3E24 /* Debug */,
+				62CEA17A1EFD70D4009A3E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62CEA17B1EFD70D4009A3E24 /* Build configuration list for PBXNativeTarget "fortune tellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CEA17C1EFD70D4009A3E24 /* Debug */,
+				62CEA17D1EFD70D4009A3E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62CEA17E1EFD70D4009A3E24 /* Build configuration list for PBXNativeTarget "fortune tellerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CEA17F1EFD70D4009A3E24 /* Debug */,
+				62CEA1801EFD70D4009A3E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62CEA1481EFD70D3009A3E24 /* Project object */;
+}
