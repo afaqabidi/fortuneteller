@@ -117,7 +117,49 @@ class ViewController: UIViewController {
         theAnswer.backgroundColor = UIColor.lightGray
         
     }
+    @IBAction func asker3(_ sender: Any) {
+        let asker3gen = arc4random_uniform(11)
+        theAnswer.text = String(asker3gen)
+        theAnswer.backgroundColor = UIColor.green
+        
+        asker3()
+    }
     
+    func asker3(){
+        if theAnswer.text == "0"{
+            theAnswer.text = "2020"
+        }
+        if theAnswer.text == "1"{
+            theAnswer.text = "2036"
+        }
+        if theAnswer.text == "2"{
+            theAnswer.text = "2051"
+        }
+        if theAnswer.text == "3"{
+            theAnswer.text = "2047"
+        }
+        if theAnswer.text == "4"{
+            theAnswer.text = "2028"
+        }
+        if theAnswer.text == "5"{
+            theAnswer.text = "2100"
+        }
+        if theAnswer.text == "6"{
+            theAnswer.text = "In A Year"
+        }
+        if theAnswer.text == "7"{
+            theAnswer.text = "2055"
+        }
+        if theAnswer.text == "8"{
+            theAnswer.text = "2118"
+        }
+        if theAnswer.text == "9"{
+            theAnswer.text = "2031"
+        }
+        if theAnswer.text == "10"{
+            theAnswer.text = "2029"
+        }
+
+    }
 
 }
-
