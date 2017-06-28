@@ -10,13 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 //--------------------------------------------------------------------------------------------------------
-// outlets
+// Outlets
 //--------------------------------------------------------------------------------------------------------
     @IBOutlet weak var theQuesion: UITextField!
     @IBOutlet weak var theAnswer: UILabel!
     @IBOutlet weak var theComent: UITextView!
 //--------------------------------------------------------------------------------------------------------
-// override functions
+// Override Functions
 //--------------------------------------------------------------------------------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 //--------------------------------------------------------------------------------------------------------
-// the yes or no quesion button
+// The Yes Or No Quesion Button
 //--------------------------------------------------------------------------------------------------------
     @IBAction func asker(_ sender: Any) {
         
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         }
     }
 //--------------------------------------------------------------------------------------------------------
-// the true or false quesion button
+// The True Or False Quesion Button
 //--------------------------------------------------------------------------------------------------------
     @IBAction func asker2(_ sender: Any) {
         
@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         }
     }
 //--------------------------------------------------------------------------------------------------------
-// the reset button
+// The Reset Button
 //--------------------------------------------------------------------------------------------------------
     @IBAction func reset(_ sender: Any) {
         
@@ -96,10 +96,10 @@ class ViewController: UIViewController {
         theAnswer.backgroundColor = UIColor.lightGray
         }
 //--------------------------------------------------------------------------------------------------------
-// the year in the future button
+// The Date In The Future Button
 //--------------------------------------------------------------------------------------------------------
     @IBAction func asker3(_ sender: Any) {
-        let asker3gen = arc4random_uniform(11)
+        let asker3gen = arc4random_uniform(6)
         theAnswer.text = String(asker3gen)
         theAnswer.backgroundColor = UIColor.green
         
@@ -109,52 +109,32 @@ class ViewController: UIViewController {
     
     func asker3(){
         if theAnswer.text == "0"{
-            theAnswer.text = "2020"
+            theAnswer.text = "A Year"
                 theComent.text = ""
         }
         if theAnswer.text == "1"{
-            theAnswer.text = "2036"
+            theAnswer.text = "A Mounth"
                 theComent.text = ""
         }
         if theAnswer.text == "2"{
-            theAnswer.text = "2051"
+            theAnswer.text = "20 Years"
                 theComent.text = ""
         }
         if theAnswer.text == "3"{
-            theAnswer.text = "2047"
+            theAnswer.text = "A Week"
                 theComent.text = ""
         }
         if theAnswer.text == "4"{
-            theAnswer.text = "2028"
+            theAnswer.text = "60 Days"
                 theComent.text = ""
         }
         if theAnswer.text == "5"{
-            theAnswer.text = "2100"
-                theComent.text = ""
-        }
-        if theAnswer.text == "6"{
-            theAnswer.text = "In A Year"
-                theComent.text = ""
-        }
-        if theAnswer.text == "7"{
-            theAnswer.text = "2055"
-                theComent.text = ""
-        }
-        if theAnswer.text == "8"{
-            theAnswer.text = "2118"
-                theComent.text = ""
-        }
-        if theAnswer.text == "9"{
-            theAnswer.text = "2031"
-                theComent.text = ""
-        }
-        if theAnswer.text == "10"{
-            theAnswer.text = "2029"
+            theAnswer.text = "1 Day"
                 theComent.text = ""
         }
     }
 //--------------------------------------------------------------------------------------------------------
-// the honest or dishonest button
+// The Honest Or Dishonest Button
 //--------------------------------------------------------------------------------------------------------
     @IBAction func asker4(_ sender: Any) {
         let asker4gen = arc4random_uniform(2)

@@ -97,7 +97,7 @@
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1UT-xE-pL8"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer A year in the future" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMu-nO-Pwc">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer A Date In The Future" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMu-nO-Pwc">
                                 <rect key="frame" x="8" y="255" width="152" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
