@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--back-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fortune_teller" customModuleProvider="target" sceneMemberID="viewController">
@@ -69,7 +69,7 @@
                                 <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer A &quot;True Or False&quot; Quesion" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mR-h8-X8S">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer In &quot;True Or False&quot; " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mR-h8-X8S">
                                 <rect key="frame" x="160" y="161" width="152" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,8 +97,16 @@
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1UT-xE-pL8"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer A year in the future" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMu-nO-Pwc">
+                                <rect key="frame" x="8" y="255" width="152" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.00010919120534663044" green="0.56795804936268612" blue="0.32605476540666067" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqb-dy-JOQ">
-                                <rect key="frame" x="116" y="211" width="89" height="47"/>
+                                <rect key="frame" x="40" y="211" width="89" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058305812027213591" green="0.45371930641571279" blue="0.18594427292192939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
@@ -109,17 +117,32 @@
                                     <action selector="asker3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H08-ke-bmy"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer A year in the future" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMu-nO-Pwc">
-                                <rect key="frame" x="84" y="255" width="152" height="42"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Taping This Will Answer If  A Man Is Honest" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nR7-dn-Cpu">
+                                <rect key="frame" x="160" y="255" width="152" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.00010919120534663044" green="0.56795804936268612" blue="0.32605476540666067" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="0.70467679794520544" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3A-hu-m39">
+                                <rect key="frame" x="192" y="211" width="89" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="0.69865689212328763" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <state key="normal" title="Ask">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="asker4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BwH-sl-C6D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="back" prompt="dsafsd" id="RSq-NC-vUD">
+                        <barButtonItem key="backBarButtonItem" title="hello" id="rbd-dB-LKX"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="theAnswer" destination="Dyy-i5-qIE" id="op2-fa-hgN"/>
                         <outlet property="theComent" destination="Lq7-qQ-H80" id="JMU-9g-rqP"/>
@@ -128,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41.25" y="186.97183098591549"/>
+            <point key="canvasLocation" x="30" y="218.66197183098592"/>
         </scene>
     </scenes>
 </document>
